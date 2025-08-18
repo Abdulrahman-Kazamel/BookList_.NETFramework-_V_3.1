@@ -30,3 +30,19 @@ The app demonstrates **CRUD operations** (Create, Read, Update, Delete) using **
 - Realizing how OpenTelemetry can replace vendor-specific monitoring agents and help avoid **vendor lock-in**.  
 
 ---
+
+## 🛠️ Getting Started
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/BookList_.NETFramework-_V_3.1.git
+cd BookList_.NETFramework-_V_3.1
+
+# Restore dependencies
+dotnet restore
+
+# Run the app
+dotnet run
+```
+
+
