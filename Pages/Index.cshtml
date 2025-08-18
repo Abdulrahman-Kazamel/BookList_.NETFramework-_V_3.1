@@ -1,22 +1,45 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
-    ViewData["ProjectName"] = GetType().Namespace;
+    ViewData["Title"] = "Home";
+    ViewData["ProjectName"] = "BookList .NET Core 3.1";
 }
-<section>
+<section class="container mt-5">
 
+    <div class="text-center mb-4">
+        <h1 class="display-4 fw-bold">
+            📚 Welcome to <span class="text-warning">@ViewData["ProjectName"]</span>
+        </h1>
+        <p class="text-muted">A simple Book Management Web Application with Observability</p>
+    </div>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to <span class="text-warning small">@ViewData["ProjectName"]</span> </h1>
-   
-</div>
+    <!-- Badges -->
+    <div class="text-center mb-5">
+        <span class="badge bg-primary">ASP.NET Core 3.1</span>
+        <span class="badge bg-info text-dark">Razor Pages</span>
+        <span class="badge bg-warning ">OpenTelemetry (Traces)</span>
+    </div>
 
-<div>
+    <!-- Features -->
+    <h3>🚀 Features</h3>
+    <ul>
+        <li>✅ Create, Edit, Delete, and View Books</li>
+        <li>✅ Razor Pages UI with validation</li>
+        <li>✅ API Endpoints consumed by jQuery DataTables</li>
+        <li>✅ SweetAlert for confirmation dialogs</li>
+        <li>✅ Toastr notifications for feedback</li>
+        <li>✅ Observability with OpenTelemetry (Console Exporter)</li>
+    </ul>
 
-    <p>
-
-    </p>
-</div>
+    <!-- Learning Section -->
+    <h3 class="mt-4">🎯 What I Learned</h3>
+    <ul>
+        <li>How to set up an ASP.NET Core 3.1 web app with Razor Pages + EF Core</li>
+        <li>CRUD operations with validation (client + server side)</li>
+        <li>Building and consuming REST API with DataTables</li>
+        <li>Using SweetAlert + Toastr for a modern UI</li>
+        <li>Working with Razor Page Handlers (no MVC Controllers)</li>
+        <li>Integrating OpenTelemetry to avoid vendor lock-in</li>
+    </ul>
 
 </section>
