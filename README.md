@@ -22,6 +22,7 @@ The app demonstrates **CRUD operations** (Create, Read, Update, Delete) using **
 
 - How to set up an **ASP.NET Core 3.1** app with Razor Pages + EF Core.  
 - Creating **CRUD operations** with Razor Pages.  
+- Brief about DI Container and middleware concept.
 - Validating data both **client-side** (@section scripts) and **server-side**.  
 - Building a REST API and consuming it via **DataTables (AJAX)**.  
 - Using **SweetAlert + Toastr** for a modern UI/UX.  
