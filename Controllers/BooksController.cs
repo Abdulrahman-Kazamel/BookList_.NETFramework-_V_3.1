@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 namespace BookList3._1.Controllers
 {
 
-    [Route("Api/Book")]
+    [Route("Api/Books")]
     [ApiController]
-    public class BookController : Controller
+    public class BooksController : Controller
     {
         private ApplicationDbContext _context;
-        public BookController(ApplicationDbContext context)
+        public BooksController(ApplicationDbContext context)
         {
             _context = context;
         }
